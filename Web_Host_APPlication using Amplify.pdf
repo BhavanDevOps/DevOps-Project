@@ -1,0 +1,11 @@
+open aws console 
+select region
+create a git repository aws codecommit
+clone to your local machine after copy files
+then push to repository
+go to amplify console to enable web hosting 
+create an app /host web app
+chose codecommit options
+select the branch
+save and deploy 
+after that click the url.
