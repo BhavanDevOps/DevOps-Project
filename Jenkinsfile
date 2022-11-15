@@ -1,8 +1,9 @@
 pipeline {
     agent any
     stages {
-        stage('git Tool'){
-            steps {
+        stage('Git Version Checkout') {
+            steps { 
+                echo 'Git Installing'
                 sh 'git --version'
             }
         }
